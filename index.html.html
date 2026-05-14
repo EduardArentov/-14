@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Арентов Эдуард</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            color: #1a2634;
+        }
+
+        /* Контейнер для центрирования контента */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Шапка / главный блок */
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 24px;
+            margin-bottom: 35px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+          <img src="https://i.postimg.cc/65cZYztC/design-engaging-letterhead-template-with-vibrant-colors-graphics-that-appeal-new-students-1270269-16.avif" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+            font-size: 3em;
+            margin: 0 0 10px 0;
+            letter-spacing: 2px;
+        }
+
+        h1 span {
+            font-weight: 300;
+            color: #ffd966;
+        }
+
+        .profession {
+            font-size: 1.2em;
+            opacity: 0.95;
+            margin-top: 10px;
+        }
+
+        h2 {
+            color: #1e3c72;
+            border-left: 5px solid #ff7b4a;
+            padding-left: 18px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        h3 {
+            color: #2a5298;
+            margin-top: 0;
+        }
+
+        /* Блок с навыками (визуальный блок) */
+        .skills-block {
+            background: linear-gradient(135deg, #e8edf5 0%, #dce3ec 100%);
+            padding: 25px;
+            border-radius: 20px;
+            margin: 30px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .skills-block:hover {
+            transform: translateY(-5px);
+        }
+
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skills-list li {
+            background: white;
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-weight: bold;
+            color: #1e3c72;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: 0.2s;
+        }
+
+        .skills-list li:hover {
+            background: #ff7b4a;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        /* Карточка с проектами (дополнительный визуальный блок) */
+        .projects-block {
+            display: flex;
+            gap: 20px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .project-card {
+            background: white;
+            padding: 20px;
+            border-radius: 16px;
+            flex: 1;
+            min-width: 200px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border: 1px solid #e0e6ed;
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            transform: translateY(-3px);
+        }
+
+        .project-card h4 {
+            color: #ff7b4a;
+            margin: 0 0 10px 0;
+            font-size: 1.3em;
+        }
+
+        /* Ссылка-кнопка */
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff7b4a 0%, #ff5533 100%);
+            color: white;
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 40px;
+            margin-top: 15px;
+            font-weight: bold;
+            transition: 0.3s;
+            box-shadow: 0 4px 10px rgba(255,85,51,0.3);
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(255,85,51,0.4);
+        }
+
+        /* Контактная информация */
+        .contact-info {
+            background: #e8edf5;
+            padding: 25px;
+            border-radius: 20px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        /* Подвал */
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            padding: 25px;
+            background: #1e3c72;
+            color: white;
+            border-radius: 20px;
+            font-size: 0.95em;
+        }
+
+        /* Отступы для абзацев */
+        p {
+            line-height: 1.6;
+            margin-bottom: 18px;
+            font-size: 1.05em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Заголовок h1 с именем и фамилией -->
+        <header>
+            <h1>Арентов <span>Эдуард</span></h1>
+            <div class="profession">⚡ Начинающий веб-разработчик | Создаю современные сайты</div>
+        </header>
+
+        <!-- Раздел "Обо мне" с подзаголовком h2 -->
+        <h2>📌 Обо мне</h2>
+        <p><!-- Кнопка "Читать далее" -->
+<button id="readMoreBtn" class="btn">📖 Читать далее</button>
+<p id="extraText" style="display: none;">
+    Я постоянно учусь новому и хочу стать профессиональным разработчиком!
+</p>
+
+<!-- Блок с лайками -->
+<div class="counter-block">
+    <button id="likeBtn" class="btn">❤️ Лайк</button>
+    <p>Лайков: <span id="likeCount">0</span></p>
+</div>
+            Привет! Меня зовут Эдуард Арентов. Я увлекаюсь созданием сайтов и веб-технологиями.
+            Мне нравится превращать идеи в красивые, удобные и быстрые веб-страницы.
+            Постоянно учусь новому и совершенствую свои навыки, чтобы делать интернет лучше.
+        </p>
+
+        <!-- Визуальный блок (навыки) -->
+        <div class="skills-block">
+            <h3>🛠️ Мои навыки и инструменты</h3>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (базовый)</li>
+                <li>Адаптивная вёрстка</li>
+                <li>Flexbox / Grid</li>
+                <li>Figma</li>
+                <li>Git</li>
+            </ul>
+        </div>
+
+        <!-- Еще один подзаголовок - Мои проекты -->
+        <h2>🚀 Мои проекты</h2>
+        <p>
+            Я активно создаю сайты разной сложности. Вот несколько проектов, которые меня вдохновляют:
+        </p>
+
+        <!-- Дополнительный визуальный блок с проектами -->
+        <div class="projects-block">
+            <div class="project-card">
+                <h4>📱 Сайт-визитка</h4>
+                <p>Современный лендинг с анимацией, адаптивный под все устройства.</p>
+            </div>
+            <div class="project-card">
+                <h4>🛍️ Интернет-магазин</h4>
+                <p>Прототип магазина с карточками товаров на Flexbox и Grid.</p>
+            </div>
+            <div class="project-card">
+                <h4>📝 Блог</h4>
+                <p>Стильный блог с удобной навигацией и красивым оформлением.</p>
+            </div>
+        </div>
+
+        <!-- Ссылка (обязательный элемент) -->
+        <p style="text-align: center;">
+            <a href="https://vk.com/3jlodei2006" class="btn" target="_blank">
+                🌐 Посмотреть мои работы на GitHub
+            </a>
+        </p>
+
+        <!-- Контактная информация -->
+        <div class="contact-info">
+            <h3>📫 Связаться со мной</h3>
+            <p>Всегда открыт для интересных проектов и сотрудничества!</p>
+            <p>✉️ Email: arentov.edik@mail.ru<br>
+               💬 Telegram: @ed74736</p>
+        </div>
+
+        <!-- Подвал -->
+        <footer>
+            <p style="margin: 0;">© 2026 Арентов Эдуард — Сайт-портфолио</p>
+            <p style="margin: 10px 0 0 0; font-size: 0.85em; opacity: 0.8;">Создано с ❤️ для учёбы и развития</p>
+        </footer>
+    </div>
+</body>
+</html>
